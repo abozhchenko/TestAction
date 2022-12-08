@@ -34,3 +34,6 @@ jobs:
         run: |
           cat my_name.txt
           echo Congratulations! Everything OK!
+          
+      - name: Run a one-line script
+        run: df -h
